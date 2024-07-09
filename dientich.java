@@ -14,6 +14,7 @@ public class dientich {
 		System.out.println("Diện tích của hình chữ nhật la: " + (Dai * Rong)); 
 		System.out.println("Diện tích của hình chữ nhật la: " + Math.multiplyExact(Dai, Rong));
 		System.out.println("Canh có số đo lớn nhất là: " + Math.max(Dai, Rong)); 
+		System.out.println("Chu vi cạnh la: " + (Dai + Rong));
 		//Khối lập phương
 		System.out.print("Nhập vào cạnh của khối lập phương: ");
 		int Canh = scanner.nextInt(); 
